@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 /**
  *Tests the Huffman Encoder and Huffman Decoder for CS261F12Lab10
  * 
- * @author Chuck Hommel
+ * @author Chuck Hommel and Kyle Dybdal
  * @version 2012.10.30
  */
 public class HuffmanTester
@@ -40,15 +40,15 @@ public class HuffmanTester
             }
             if (choice == 0)
             {
-         //       HuffmanEncoder.huffmanEncode(fName);
-                HuffmanEncoderSolution.huffmanEncode(fName);
+                HuffmanEncoder.huffmanEncode(fName);
+  //              HuffmanEncoderSolution.huffmanEncode(fName);
             }
             else
             {
                 if (choice == 1)
                 {
-           //         HuffmanDecoder.huffmanDecode(fName);
-                    HuffmanDecoderSolution.huffmanDecode(fName);
+                    HuffmanDecoder.huffmanDecode(fName);
+           //         HuffmanDecoderSolution.huffmanDecode(fName);
 
                 }
             }
